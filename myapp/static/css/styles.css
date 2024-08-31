@@ -10,7 +10,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- 
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -122,11 +122,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(10rem + 2vw);
+  margin-top: -2rem;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -140,11 +141,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(6rem + 0.75vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
 }
 
@@ -2847,8 +2848,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #071272;
-  --bs-btn-border-color: #071272;
+  --bs-btn-bg: #0349AD;
+  --bs-btn-border-color: #0349AD;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5737A4;
   --bs-btn-hover-border-color: #5737A4;
@@ -2858,8 +2859,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #5737A4;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #071272;
-  --bs-btn-disabled-border-color: #071272;
+  --bs-btn-disabled-bg: #0349AD;
+  --bs-btn-disabled-border-color: #0349AD;
 }
 
 .btn-secondary {
@@ -10843,15 +10844,14 @@ p {
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -11128,12 +11128,13 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: #041E41;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
+  
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
