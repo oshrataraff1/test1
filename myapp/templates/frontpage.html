@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic HTML Page</title>
+    <link rel="stylesheet" type="text/css" href='static/pages/style.css'>
+    <link rel="shortcut icon" type="image/x-icon" href="static/pages/favicon.ico" />
+</head>
+<body>
+    <header>
+        <div class="header-text">Sign in via:</div>
+        <a href="#" class="header-link">Spotify</a>
+        <a href="#" class="header-link">Deezer</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="landing-section landing-main">
+        <h1 class="brand">MuN</h1>
+        <h2>
+            <span class="brand-text">Mu</span>sic
+            <span class="brand-text">N</span>otifications
+        </h2>
+        <p class="landing-main-text">
+            Got tired of missing out on releases from your favourite artists?
+        <br>
+            You have found a perfect solution...
+        </p>
+    </section>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>This is the home section of the page. Here, you can introduce your website.</p>
+    </section>
+
+    <section class="landing-section langing-features">
+        <section class="landing-feature feature-music-services">
+            <h2>Connect your favourite <span class="brand-text">mu</span>sic services</h2>
+            <ul>
+                <li>Spotify</li>
+                <li>Deezer</li>
+            </ul>
+        </section>
+        <section class="landing-feature feature-notifications">
+            <h2>Get <span class="brand-text">n</span>otifications wherever you want them</h2>
+            <ul>
+                <li>Email</li>
+                <li>Telegram</li>
+            </ul>
+        </section>
+    </section>
+
+
+
+    <section id="about">
+        <h2>About</h2>
+        <p>This section provides information about you or your website.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can provide your contact details here.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
