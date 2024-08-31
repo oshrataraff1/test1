@@ -122,12 +122,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(10rem + 2vw);
+  font-size: calc(1.375rem + 1.5vw);
   margin-top: -2rem;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -141,11 +141,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(6rem + 0.75vw);
+  font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1rem;
+    font-size: 1.75rem;
   }
 }
 
@@ -320,7 +320,7 @@ caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   color: #6c757d;
-  text-align: left;
+  text-align: right;
 }
 
 th {
@@ -3252,7 +3252,7 @@ textarea.form-control-lg {
   margin: 0;
   font-size: var(--bs-dropdown-font-size);
   color: var(--bs-dropdown-color);
-  text-align: left;
+  text-align: right;
   list-style: none;
   background-color: var(--bs-dropdown-bg);
   background-clip: padding-box;
@@ -4366,7 +4366,7 @@ textarea.form-control-lg {
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: 1rem;
   color: var(--bs-accordion-btn-color);
-  text-align: left;
+  text-align: right;
   background-color: var(--bs-accordion-btn-bg);
   border: 0;
   border-radius: 0;
@@ -5548,7 +5548,7 @@ textarea.form-control-lg {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  text-align: left;
+  text-align: right;
   text-align: start;
   text-decoration: none;
   text-shadow: none;
@@ -5658,7 +5658,7 @@ textarea.form-control-lg {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  text-align: left;
+  text-align: right;
   text-align: start;
   text-decoration: none;
   text-shadow: none;
@@ -7986,7 +7986,7 @@ textarea.form-control-lg {
 }
 
 .text-start {
-  text-align: left !important;
+  text-align: right !important;
 }
 
 .text-end {
@@ -8788,7 +8788,7 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
   .text-sm-start {
-    text-align: left !important;
+    text-align: right !important;
   }
   .text-sm-end {
     text-align: right !important;
@@ -9284,7 +9284,7 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
   .text-md-start {
-    text-align: left !important;
+    text-align: right !important;
   }
   .text-md-end {
     text-align: right !important;
@@ -9780,7 +9780,7 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
   .text-lg-start {
-    text-align: left !important;
+    text-align: right !important;
   }
   .text-lg-end {
     text-align: right !important;
@@ -10276,7 +10276,7 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
   .text-xl-start {
-    text-align: left !important;
+    text-align: right !important;
   }
   .text-xl-end {
     text-align: right !important;
@@ -10772,7 +10772,7 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
   .text-xxl-start {
-    text-align: left !important;
+    text-align: right !important;
   }
   .text-xxl-end {
     text-align: right !important;
@@ -10848,7 +10848,7 @@ p {
   margin-bottom: 3rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 2rem;
@@ -11075,6 +11075,8 @@ header.masthead .masthead-heading {
   position: relative;
   padding: 0;
   list-style: none;
+  direction: rtl !important;
+  text-align: right !important;
 }
 .timeline:before {
   position: absolute;
@@ -11103,7 +11105,7 @@ header.masthead .masthead-heading {
   float: right;
   width: 100%;
   padding: 0 20px 0 100px;
-  text-align: left;
+  text-align: right;
 }
 .timeline > li .timeline-panel:before {
   right: auto;
@@ -11139,7 +11141,7 @@ header.masthead .masthead-heading {
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
-  text-align: left;
+  text-align: right;
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
   right: auto;
@@ -11196,7 +11198,7 @@ header.masthead .masthead-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
-    text-align: left;
+    text-align: right;
   }
 }
 @media (min-width: 992px) {
